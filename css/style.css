@@ -172,11 +172,6 @@ button:hover {
     width: 65%;
 }
 
-.hebergements h3 {
-    margin-top: 40px;
-    margin-bottom: -2px;
-}
-
 .hebergements-title {
     display: flex;
     justify-content: flex-start;
@@ -307,6 +302,7 @@ button:hover {
 .activites h3 {
     font-size: 16px;
     font-weight: 600;
+    padding: 15px;
 }
 
 /****** Footer ******/
@@ -379,9 +375,36 @@ ul {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .hebergements-cards .card {
+        width: 180px;
+    }
+
+    .hebergements-cards img {
+        height: 85px;
+    }
+
+    .hebergements h3 {
+        font-size: 12px;
+    }
+
+    .hebergements-cards .card-subtitle {
+        font-size: 12px;
+    }
+
+    .activites h3 {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .activites img {
+        height: 200px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+   
+
+
 }
