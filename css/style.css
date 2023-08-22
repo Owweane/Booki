@@ -441,7 +441,16 @@ footer li {
     }
 
     .hebergements-cards {
-        flex-direction: column;
+        grid-template-columns: 380px;
+    }
+
+    .hebergements-cards .card {
+        width: 410px;
+        margin-top: 20px;
+    }
+
+    .hebergements-cards img {
+        height: 130px;
     }
 
     /****** Bars de recherche ******/
@@ -450,6 +459,7 @@ footer li {
         width: 35%;  
     }
 
+   
 
 }
 
