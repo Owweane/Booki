@@ -419,6 +419,9 @@ footer li {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+    .hebergements-and-populaires section {
+        background-color: #FFFFFF;
+    }
 
     * {
         margin: 0px;
@@ -437,12 +440,13 @@ footer li {
     }
 
     .hebergements-cards {
-        grid-template-columns: 340px;
+        grid-template-columns: 327px;
     }
 
     .hebergements-cards .card {
-        width: 370px;
+        width: 365px;
         margin-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     }
 
     .hebergements-cards img {
