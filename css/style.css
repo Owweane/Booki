@@ -465,6 +465,11 @@ footer li {
         margin-bottom: 5px;
     }
 
+    .hebergements h3 {
+        font-size: 16px;
+        margin-top: 18px;
+    }
+
     /****** Bars de recherche ******/
 
     input {
@@ -489,6 +494,28 @@ footer li {
 .populaires-cards img {
     width: 45%;
     height: 136px;
+}
+/*****  Activités *****/
+
+.activites-text {
+    flex-direction: column;
+}
+
+.activites-card {
+    width: 345px;
+    flex-direction: column;
+    margin-left: -10px;
+}
+
+.activites img {
+    height: 160px;
+}
+
+.activites h3 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px;
+    padding-left: 20px;
 }
 
 }
