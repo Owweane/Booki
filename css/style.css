@@ -440,11 +440,11 @@ footer li {
     }
 
     .hebergements-cards {
-        grid-template-columns: 327px;
+        grid-template-columns: 315px;
     }
 
     .hebergements-cards .card {
-        width: 365px;
+        width: 345px;
         margin-top: 20px;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     }
@@ -480,6 +480,8 @@ footer li {
 }
 
 .populaires-cards .card {
+    width: 345px;
+    margin-left: -45px;
     display: flex;
     margin-top: 33px;
 }
