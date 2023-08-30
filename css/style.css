@@ -100,6 +100,13 @@ h1 {
 
 /****** Bars de recherche ******/
 
+.recherche-flex {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row;
+    font-weight: 600;
+}
+
 #buttonrecherche {
     padding: 8px 10px 8px 10px;
     margin: 10px 10px 10px 0px;
@@ -432,7 +439,7 @@ footer li {
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     p {
@@ -516,6 +523,35 @@ footer li {
     font-weight: 600;
     padding: 20px;
     padding-left: 20px;
+}
+
+/***** Filtres *****/
+
+
+/***** Footer *****/
+
+footer {
+    font-size: 12px;
+    background-color: #F2F2F2;
+    margin-bottom: -22px;
+    margin-top: 50px;
+    grid-template-columns: 420px;
+    margin-left: -23px;
+    margin-right: -22px;
+    padding: 8px;
+    padding-top: 20px;
+}
+
+footer h3 {
+    margin-left: 14px;
+    margin-right: 150px;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+footer li {
+    
 }
 
 }
