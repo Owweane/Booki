@@ -473,6 +473,10 @@ footer li {
         margin-top: -30px;
         padding-left: 130px;
         list-style: none;
+        border-bottom: 2px #d9d9d9 solid;
+        margin-left: -25px;
+        margin-right: -25px;
+        padding-bottom: 10px;
 
     }
     
@@ -484,7 +488,6 @@ footer li {
     }
     
     a:hover {
-        text-decoration-line: underline;
         color: #0065FC;
     }
 
