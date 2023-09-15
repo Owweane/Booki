@@ -452,6 +452,24 @@ footer li {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-and-populaires section {
+        background-color: transparent;
+    }
+
+    .section-title {
+        margin-left: -30px;
+    }
+
+    .buttonflex {
+        margin-bottom: -20px;
+        margin-top: 25px;
+    }
+
+
     * {
         margin: 0px;
     }
@@ -542,7 +560,6 @@ footer li {
 
    .populaires {
     width: 100%;
-    background-color: #0065FC;
 }
 
 .populaires-cards {
@@ -591,11 +608,42 @@ footer li {
 
 #buttonrecherche {
     display: none;
+
+    padding: 0px 10px 0px 10px;
+    margin: 25px 10px 25px 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065FC;
 }
 
 #glass {
     display: block;
 }
+
+/*#buttonrecherche {
+    padding: 0px 10px 0px 10px;
+    margin: 25px 10px 25px 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    justify-content: center;
+    font-weight: bold;
+    display: block;
+}*/
+
+/*#glass {
+    padding: 10px 10px 0px 10px;
+    margin: 25px 10px 25px -10px;
+    border-radius: 10px;
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    justify-content: center;
+    display: none;
+    box-shadow: 4px 5px 8px 0px #b5b3b3;
+}*/
 
 /***** Filtres *****/
 
