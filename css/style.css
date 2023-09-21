@@ -490,6 +490,10 @@ footer li {
 
     /***** Header *****/
 
+    header nav {
+        width: 100%;
+    }
+
     .logo {
         width: auto;
         height: 20px;
@@ -505,7 +509,7 @@ footer li {
     header li {
         list-style: none;
         display: inline;
-        padding-left: 80px;
+        padding-left: 0px;
     }
     
     a {
@@ -518,7 +522,7 @@ footer li {
         color: #0065FC;
     }
 
-    /**********/
+    /***** HEBERGEMENT *****/
 
     h1 {
         font-size: 24px;
