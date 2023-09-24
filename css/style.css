@@ -487,6 +487,7 @@ footer li {
         width: 100%;
         margin-top: 30px;
         margin-left: 20px;
+        margin-bottom: 15px
     }
 
     .logo {
@@ -500,15 +501,25 @@ footer li {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        border-bottom: 2px solid #F2F2F2;
     }
     
     header li {
         list-style: none;
         padding-left: 0px;
     }
+
+    li:hover {
+        padding-bottom: 15px;
+        border-bottom: 2px solid #0065FC;
+    }
     
     a {
-        margin-right: 88px;
+        margin-right: 60px;
+    }
+
+    a:hover {
+        text-decoration-line: none;
     }
 
     /***** HEBERGEMENT *****/
@@ -656,6 +667,7 @@ footer {
     margin-bottom: -22px;
     margin-top: 50px;
     grid-template-columns: 420px;
+
     padding: 8px;
     padding-top: 20px;
 }
