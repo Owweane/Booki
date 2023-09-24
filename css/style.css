@@ -465,6 +465,10 @@ footer li {
         flex-direction: column-reverse;
     }
 
+    .hebergements-and-populaires section {
+        background: transparent
+    }
+
     .buttonflex {
         margin-bottom: -20px;
         margin-top: 25px;
@@ -577,6 +581,7 @@ footer li {
 
    .populaires {
     width: 100%;
+    background-color: #0065FC;
 }
 
 
@@ -600,7 +605,6 @@ footer li {
 
 .activites {
     width: 100%;
-    margin: 20px;
 }
 
 .activites-text {
@@ -681,3 +685,4 @@ footer h3 {
 }
 
 }
+
